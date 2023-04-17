@@ -1,0 +1,99 @@
+/* ----------------font-------------- */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: 'Pretendard-Regular'; /*추후 수정 필요_JA_221213_폰트 적용 안됨*/
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #fbf3ee;
+}
+/* h1 */
+.ftl{
+    font-size: 32px; 
+    font-weight: 600; 
+    color: #1e3932;
+}
+/* h2 */
+.ftm{
+    font-size: 24px; 
+    font-weight: 400; 
+    color: #1e3932;
+}
+/* h4 */
+.ftlg{
+    font-size: 16px; 
+    font-weight: 200; 
+    color: #333;
+}
+/* span,a, button */
+.fts{
+    font-size: 16px; 
+    font-weight: 400; 
+    color: #333;
+}
+.ftxs{
+    font-size: 14px;
+     font-weight: 400; 
+     color: #333;
+}
+/* footer font */
+.footerFont_l{
+    font-size: 16px; 
+    font-weight: 600; 
+    color: #fff;
+}
+.footerFont_m{
+    font-size: 14px; 
+    font-weight: 400; 
+    color: #fff;
+}
+
+/* -------------padding--------------- */
+
+/* header nav */
+/* serch,accunt ,footer - info*/
+.nt{padding: 27px 0;}
+/* menu topButton, best-bacground, footer*/
+.cf{padding: 54px 0;}
+/* bestButton, been - img, section*/
+.pd{padding: 81px 0;}
+.container{width: 1340px; margin: 0 auto;}
+
+
+.af::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+/* -----------------color------------  */
+
+/* -----------------button--------------- */
+/* section button */
+#search{
+    width: 104px; 
+    line-height: 17px; 
+    /* border: 2px solid #1e3932;  */
+    /* border-radius: 6px; */
+    position: relative;
+}
+
+.btn_more{
+    width: 100px;
+    height: 37px;
+    line-height: 27px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #1e3932;
+    border-radius: 6px;
+}
+/* footer button */
+.footerBut{
+    width: 120px; 
+    line-height: 37px; 
+    border: 1px solid #fff; 
+    border-radius: 6px;
+}
